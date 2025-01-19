@@ -13,6 +13,37 @@ class Auth extends BaseController
         $this->userModel = new UserModel();
     }
 
+    public function register()
+    {
+        return view('auth/register');
+    }
+
+    public function processRegister()
+    {
+        $validation = \Config\Services::validation();
+
+        // Validasi input
+        $rules = [
+            'username' => 'required|min_length[3]|is_unique[users.username]',
+            'password' => 'required|min_length[6]',
+            'confirm_password' => 'required|matches[password]',
+        ];
+
+        if (!$this->validate($rules)) {
+            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
+        }
+
+        // Simpan data user baru
+        $userModel = new UserModel();
+        $userModel->insert([
+            'username' => $this->request->getPost('username'),
+            'password' => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT),
+            'role' => 'user', // Default role
+        ]);
+
+        return redirect()->to('/login')->with('success', 'Registrasi berhasil, silakan login.');
+    }
+
     public function login()
     {
         return view('auth/login');

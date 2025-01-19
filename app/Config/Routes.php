@@ -29,3 +29,7 @@ $routes->get('/login', 'Auth::login', ['filter' => 'guest']);
 $routes->post('/login', 'Auth::processLogin', ['filter' => 'guest']);
 $routes->get('/logout', 'Auth::logout');
 $routes->get('/dashboard', 'Dashboard::index', ['filter' => 'auth']);
+
+$routes->get('/register', 'Auth::register', ['filter' => 'guest']);
+$routes->post('/register', 'Auth::processRegister', ['filter' => 'guest']);
+
