@@ -1,3 +1,5 @@
+<?= $this->include('layout/header') ?>
+
 <h1>Data Mata Pelajaran</h1>
 <a href="/mata_pelajaran/create">Tambah Mata Pelajaran</a>
 <table border="1">
@@ -18,3 +20,4 @@
         </tr>
     <?php endforeach; ?>
 </table>
+<?= $this->include('layout/footer') ?>

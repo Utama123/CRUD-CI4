@@ -8,4 +8,11 @@ class Dashboard extends BaseController
     {
         return view('dashboard/index');
     }
+
+    public function logout()
+{
+    session()->destroy();
+    return redirect()->to('/login')->with('success', 'Anda telah logout.');
+}
+
 }

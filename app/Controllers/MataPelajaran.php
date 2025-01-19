@@ -22,12 +22,24 @@ class MataPelajaran extends BaseController
     public function index()
     {
         $data['mata_pelajaran'] = $this->mataPelajaranModel->getWithGuru();
+        $data['mata_pelajaran'] = $this->mataPelajaranModel->findall();
+
+        if (!session()->get('logged_in')) {
+            return redirect()->to('/login');
+        }
+
+        $data = [
+            'title' => 'Daftar mata_pelajaran',
+            'guru' => $this->guruModel->findAll(),
+        ];
+
+
         return view('mata_pelajaran/index', $data);
     }
 
     public function create()
     {
-        $data['guru'] = $this->guruModel->findAll();
+        $data['mata_pelajaran'] = $this->mataPelajaranModel->findAll();
         return view('mata_pelajaran/create', $data);
     }
 
@@ -46,4 +58,33 @@ class MataPelajaran extends BaseController
         $data['pelajaran'] = $this->mataPelajaranModel->find($pelajaran_id);
         return view('mata_pelajaran/siswa', $data);
     }
+    public function edit($id)
+    {
+        if (!session()->get('logged_in')) {
+            return redirect()->to('/login');
+        }
+
+        $mata_pelajaran = $this->mataPelajaranModel->find($id);
+
+        $data = [
+            'title' => 'Edit Mata Pelajaran',
+            'mata_pelajaran' => $mata_pelajaran,
+        ];
+
+        return view('mata_pelajaran/edit', $data);
+    }
+
+    public function update($id)
+    {
+        if (!session()->get('logged_in')) {
+            return redirect()->to('/login');
+        }
+
+        $this->mataPelajaranModel->update($id, [
+            'nama_pelajaran' => $this->request->getPost('nama_pelajaran'),
+        ]);
+
+        return redirect()->to('/mata_pelajaran')->with('success', 'Mata pelajaran berhasil diperbarui.');
+    }
+
 }

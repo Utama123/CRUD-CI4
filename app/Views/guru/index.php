@@ -1,3 +1,4 @@
+<?= $this->include('layout/header') ?>
 <h1>Data Guru</h1>
 <a href="/guru/create">Tambah Guru</a>
 <table border="1">
@@ -23,3 +24,4 @@
         </tr>
     <?php endforeach; ?>
 </table>
+<?= $this->include('layout/footer') ?>

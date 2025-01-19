@@ -22,7 +22,11 @@ $routes->get('/siswa/delete/(:num)', 'Siswa::delete/$1');
 
 $routes->get('/mata_pelajaran', 'MataPelajaran::index');
 $routes->get('/mata_pelajaran/create', 'MataPelajaran::create');
+$routes->get('/mata_pelajaran/edit/(:num)', 'MataPelajaran::edit/$1');
 $routes->post('/mata_pelajaran/store', 'MataPelajaran::store');
+$routes->post('/mata_pelajaran/update/(:num)', 'MataPelajaran::update/$1');
+$routes->get('/mata_pelajaran/delete/(:num)', 'MataPelajaran::delete/$1');
+
 $routes->get('/mata_pelajaran/siswa/(:num)', 'MataPelajaran::siswa/$1');
 
 $routes->get('/login', 'Auth::login', ['filter' => 'guest']);
@@ -32,4 +36,11 @@ $routes->get('/dashboard', 'Dashboard::index', ['filter' => 'auth']);
 
 $routes->get('/register', 'Auth::register', ['filter' => 'guest']);
 $routes->post('/register', 'Auth::processRegister', ['filter' => 'guest']);
+
+$routes->group('', ['filter' => 'auth'], function($routes) {
+    $routes->get('/guru', 'Guru::index');
+    $routes->get('/siswa', 'Siswa::index');
+    $routes->get('/mapel', 'Mapel::index');
+    // Tambahkan rute lainnya
+});
 

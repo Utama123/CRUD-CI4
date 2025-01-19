@@ -17,6 +17,16 @@ class Siswa extends Controller
     public function index()
     {
         $data['siswa'] = $this->siswaModel->findAll();
+
+        if (!session()->get('logged_in')) {
+            return redirect()->to('/login');
+        }
+
+        $data = [
+            'title' => 'Daftar Siswa',
+            'siswa' => $this->siswaModel->findAll(),
+        ];
+
         return view('siswa/index', $data);
     }
 

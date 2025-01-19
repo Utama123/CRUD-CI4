@@ -17,6 +17,16 @@ class Guru extends Controller
     public function index()
     {
         $data['guru'] = $this->guruModel->findAll();
+
+        if (!session()->get('logged_in')) {
+            return redirect()->to('/login');
+        }
+
+        $data = [
+            'title' => 'Daftar Guru',
+            'guru' => $this->guruModel->findAll(),
+        ];
+
         return view('guru/index', $data);
     }
 

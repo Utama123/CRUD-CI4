@@ -66,3 +66,733 @@ DEBUG - 2025-01-19 02:01:26 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-01-19 02:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-01-19 02:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-01-19 02:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:13:14 --> ErrorException: Undefined array key "mata_pelajaran"
+[Method: GET, Route: guru]
+in APPPATH\Views\guru\index.php on line 16.
+ 1 APPPATH\Views\guru\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mata_pelajaran"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/index', [], true)
+ 5 APPPATH\Controllers\Guru.php(30): view('guru/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:13:32 --> ErrorException: Undefined array key "mata_pelajaran"
+[Method: GET, Route: guru]
+in APPPATH\Views\guru\index.php on line 16.
+ 1 APPPATH\Views\guru\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mata_pelajaran"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/index', [], true)
+ 5 APPPATH\Controllers\Guru.php(30): view('guru/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:13:46 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:14:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "siswa/create.php"
+[Method: GET, Route: siswa/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/create', [], true)
+ 3 APPPATH\Controllers\Siswa.php(35): view('siswa/create')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:14:30 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:14:54 --> ErrorException: Undefined array key "mata_pelajaran"
+[Method: GET, Route: guru]
+in APPPATH\Views\guru\index.php on line 16.
+ 1 APPPATH\Views\guru\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mata_pelajaran"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/index', [], true)
+ 5 APPPATH\Controllers\Guru.php(30): view('guru/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:14:54 --> ErrorException: Undefined array key "mata_pelajaran"
+[Method: GET, Route: guru]
+in APPPATH\Views\guru\index.php on line 16.
+ 1 APPPATH\Views\guru\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mata_pelajaran"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/index', [], true)
+ 5 APPPATH\Controllers\Guru.php(30): view('guru/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:15:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guru/edit.php"
+[Method: GET, Route: guru/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/edit.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/edit', [], true)
+ 3 APPPATH\Controllers\Guru.php(52): view('guru/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:17:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guru/create.php"
+[Method: GET, Route: guru/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/create', [], true)
+ 3 APPPATH\Controllers\Guru.php(35): view('guru/create')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:18:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "siswa/create.php"
+[Method: GET, Route: siswa/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/create', [], true)
+ 3 APPPATH\Controllers\Siswa.php(35): view('siswa/create')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:20:21 --> ErrorException: Undefined array key "mata_pelajaran"
+[Method: GET, Route: guru/edit/1]
+in APPPATH\Views\guru\edit.php on line 10.
+ 1 APPPATH\Views\guru\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mata_pelajaran"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/edit', [], true)
+ 5 APPPATH\Controllers\Guru.php(52): view('guru/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:20:38 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:22:07 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:22:14 --> ErrorException: Undefined variable $guru
+[Method: GET, Route: siswa/edit/2]
+in APPPATH\Views\siswa\edit.php on line 4.
+ 1 APPPATH\Views\siswa\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\siswa\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\siswa\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(52): view('siswa/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:22:37 --> ErrorException: Undefined array key "mata_pelajaran"
+[Method: GET, Route: siswa/edit/2]
+in APPPATH\Views\siswa\edit.php on line 10.
+ 1 APPPATH\Views\siswa\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mata_pelajaran"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\siswa\\edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\siswa\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(52): view('siswa/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-19 02:26:02 --> mysqli_sql_exception: Column 'nip' cannot be null in C:\xampp\htdocs\CRUDCI4\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\CRUDCI4\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `gu...', 0)
+#1 C:\xampp\htdocs\CRUDCI4\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gu...')
+#2 C:\xampp\htdocs\CRUDCI4\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gu...')
+#3 C:\xampp\htdocs\CRUDCI4\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gu...', Array, false)
+#4 C:\xampp\htdocs\CRUDCI4\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CRUDCI4\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CRUDCI4\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\CRUDCI4\system\BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\CRUDCI4\app\Controllers\Guru.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\CRUDCI4\system\CodeIgniter.php(933): App\Controllers\Guru->store()
+#10 C:\xampp\htdocs\CRUDCI4\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#11 C:\xampp\htdocs\CRUDCI4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CRUDCI4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CRUDCI4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\CRUDCI4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\CRUDCI4\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-01-19 02:26:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nip' cannot be null
+[Method: POST, Route: guru/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `guru` (`nama`, `nip`, `alamat`, `telepon`) VALUES (:nama:, :nip:, :alamat:, :telepon:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Guru.php(40): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+CRITICAL - 2025-01-19 02:26:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nip' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `guru` (`nama`, `nip`, `alamat`, `telepon`) VALUES (\'fatimah\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `guru` (`nama`, `nip`, `alamat`, `telepon`) VALUES (\'fatimah\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `guru` (`nama`, `nip`, `alamat`, `telepon`) VALUES (:nama:, :nip:, :alamat:, :telepon:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Guru.php(40): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+CRITICAL - 2025-01-19 02:26:02 --> [Caused by] mysqli_sql_exception: Column 'nip' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `guru` (`nama`, `nip`, `alamat`, `telepon`) VALUES (\'fatimah\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `guru` (`nama`, `nip`, `alamat`, `telepon`) VALUES (\'fatimah\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `guru` (`nama`, `nip`, `alamat`, `telepon`) VALUES (\'fatimah\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `guru` (`nama`, `nip`, `alamat`, `telepon`) VALUES (:nama:, :nip:, :alamat:, :telepon:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Guru.php(40): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:27:58 --> ErrorException: Undefined variable $siswa
+[Method: GET, Route: guru/edit/1]
+in APPPATH\Views\guru\edit.php on line 4.
+ 1 APPPATH\Views\guru\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/edit', [], true)
+ 5 APPPATH\Controllers\Guru.php(52): view('guru/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:28:21 --> ErrorException: Undefined array key "mata_pelajaran"
+[Method: GET, Route: guru/edit/1]
+in APPPATH\Views\guru\edit.php on line 10.
+ 1 APPPATH\Views\guru\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mata_pelajaran"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/edit', [], true)
+ 5 APPPATH\Controllers\Guru.php(52): view('guru/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:28:38 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:28:41 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:29:20 --> ErrorException: Undefined array key "guru_nama"
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 16.
+ 1 APPPATH\Views\mata_pelajaran\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "guru_nama"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:30:18 --> ErrorException: Undefined array key "guru_nama"
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 16.
+ 1 APPPATH\Views\mata_pelajaran\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "guru_nama"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:30:31 --> ErrorException: Undefined array key "guru_nama"
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 16.
+ 1 APPPATH\Views\mata_pelajaran\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "guru_nama"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:31:38 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:32:54 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:33:09 --> ErrorException: Undefined array key "mata_pelajaran"
+[Method: GET, Route: guru/edit/2]
+in APPPATH\Views\guru\edit.php on line 10.
+ 1 APPPATH\Views\guru\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mata_pelajaran"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/edit', [], true)
+ 5 APPPATH\Controllers\Guru.php(52): view('guru/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:33:35 --> ErrorException: Undefined array key "mata_pelajaran"
+[Method: GET, Route: siswa/edit/2]
+in APPPATH\Views\siswa\edit.php on line 10.
+ 1 APPPATH\Views\siswa\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mata_pelajaran"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\siswa\\edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\siswa\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/edit', [], true)
+ 5 APPPATH\Controllers\Siswa.php(52): view('siswa/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Siswa->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:33:56 --> ErrorException: Undefined array key "mata_pelajaran"
+[Method: GET, Route: guru/edit/1]
+in APPPATH\Views\guru\edit.php on line 10.
+ 1 APPPATH\Views\guru\edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mata_pelajaran"', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\guru\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/edit', [], true)
+ 5 APPPATH\Controllers\Guru.php(52): view('guru/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Guru->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:36:00 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:36:01 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:42:21 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:42:24 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:43:10 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:46:05 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:47:44 --> ArgumentCountError: Too few arguments to function App\Controllers\MataPelajaran::edit(), 0 passed in C:\xampp\htdocs\CRUDCI4\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: mata_pelajaran/edit]
+in APPPATH\Controllers\MataPelajaran.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:48:36 --> ErrorException: Undefined property: App\Controllers\MataPelajaran::$mapelModel
+[Method: GET, Route: mata_pelajaran/edit/1]
+in APPPATH\Controllers\MataPelajaran.php on line 66.
+ 1 APPPATH\Controllers\MataPelajaran.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MataPelajaran::$mapelModel', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Controllers\\MataPelajaran.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:49:35 --> ErrorException: Undefined variable $mapel
+[Method: GET, Route: mata_pelajaran/edit/1]
+in APPPATH\Views\mata_pelajaran\edit.php on line 4.
+ 1 APPPATH\Views\mata_pelajaran\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mapel', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/edit', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(73): view('mata_pelajaran/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:50:03 --> ErrorException: Undefined variable $mapel
+[Method: GET, Route: mata_pelajaran/edit/1]
+in APPPATH\Views\mata_pelajaran\edit.php on line 4.
+ 1 APPPATH\Views\mata_pelajaran\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mapel', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/edit', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(73): view('mata_pelajaran/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:54:20 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-19 02:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:54:43 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(36): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')
+DEBUG - 2025-01-19 02:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-19 02:56:15 --> ErrorException: Undefined variable $mata_pelajaran
+[Method: GET, Route: mata_pelajaran]
+in APPPATH\Views\mata_pelajaran\index.php on line 12.
+ 1 APPPATH\Views\mata_pelajaran\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mata_pelajaran', 'C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\CRUDCI4\\app\\Views\\mata_pelajaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mata_pelajaran/index', [], true)
+ 5 APPPATH\Controllers\MataPelajaran.php(37): view('mata_pelajaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MataPelajaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MataPelajaran))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\CRUDCI4\\public\\index.php')

@@ -1,4 +1,5 @@
-<h1>Data Guru</h1>
+<?= $this->include('layout/header') ?>
+<h1>Data Siswa</h1>
 <a href="/siswa/create">Tambah Siswa</a>
 <table border="1">
     <tr>
@@ -23,3 +24,4 @@
         </tr>
     <?php endforeach; ?>
 </table>
+<?= $this->include('layout/footer') ?>
